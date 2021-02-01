@@ -1,0 +1,24 @@
+.text-amount{
+    color: #216C2A;
+}
+.text-status{
+    text-shadow:none !important;
+}
+.rowHighliteGreen{
+    background-color:#bbffbb;
+}
+.rowHighliteGreen:hover{
+    background-color:#bbffbb !important;
+}
+.rowHighliteBlue{
+    background-color:#bbcdff;
+}
+.rowHighliteBlue:hover{
+    background-color:#bbcdff !important;
+}
+.rowHighliteRed{
+    background-color: #ffbbbb;
+}
+.rowHighliteRed:hover{
+    background-color: #ffbbbb !important;
+}

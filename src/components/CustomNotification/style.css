@@ -1,0 +1,22 @@
+.notificationToastContainer{
+    background-color: rgba(247, 247, 247, 0.9);
+    padding: 8px 16px;
+    border: 1px solid rgba(215, 215, 215, 0.9);
+    border-radius:10px;
+    -webkit-border-radius:10px;
+}
+.notification__item{
+    box-shadow: none!important;
+}
+.notificationInfoButton{
+    color:#579ac5;
+}
+.notificationWarningButton{
+    color:#ffc107;
+}
+.notificationSuccessButton{
+    color:#44c535;
+}
+.notificationDangerButton{
+    color: #e74a3b;
+}

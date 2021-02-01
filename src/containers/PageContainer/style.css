@@ -1,0 +1,10 @@
+.pageContentCard{
+    background:#fff;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border:2px solid #e8e8e8;
+}
+.pageContentCardHeader{
+    background:none;
+    border:none;
+}

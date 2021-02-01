@@ -1,0 +1,8 @@
+.helpPopupButton{
+    color:#737373;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 1px 6px -3px #696969;
+    box-shadow: 0 1px 6px -3px #696969;
+    cursor:pointer;
+    padding:5px;
+}
