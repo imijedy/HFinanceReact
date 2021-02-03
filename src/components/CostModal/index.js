@@ -32,7 +32,7 @@ class CostModal extends React.Component {
         }else{
             return {
                 show:false,
-                costType:this.props.data.find((x) => x.id === 1),
+                costType:this.props.data[0],
                 paymentMethod: "None",
                 paymentPeriod: "",
                 paymentDeadline: "",
@@ -168,7 +168,7 @@ class CostModal extends React.Component {
                     <Button className="cancelButton" onClick={this.handleClose}>
                         Mégse
                     </Button>
-                    <Button className="addButton" onClick={this.handleAdd}>
+                    <Button disabled={this.props.data.length === 0 || this.props.data === null || this.props.data === undefined} className="addButton" onClick={this.handleAdd}>
                         {(this.props.modalFunctionType === "add") ? "Hozzáadás" : "Módosítás"}
                     </Button>
                 </Modal.Footer>
